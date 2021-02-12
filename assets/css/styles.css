@@ -658,7 +658,64 @@ ul.expList li span {
 }
 /*# sourceMappingURL=styles.css.map */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px){
+  section:nth-last-of-type(5) {
+    padding: 4rem 2rem;
+    padding-bottom: 0;
+  }
+  .headerSec .profileSec .content h1 {
+    font-size: 3.5rem;
+  }
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  section:nth-last-of-type(4) {
+    padding: 4rem 2rem;
+    padding-bottom: 10rem;
+  }
+  .extraW {
+    width: 90%;
+  }
+  .thirdSec .rowOne{
+    margin-top: 0;
+  }
+  .expList{
+    display: flex;
+  }
+  section:nth-last-of-type(3){
+     padding: 4rem 2rem;
+  }
+  .thirdSec .cardCustom{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .thirdSec .cardCustom .CardContent{
+    margin-left: 0;
+    width: 100%;
+  }
+  .thirdSec .cardCustom{
+    padding: 1rem;
+    padding-top: 6rem;
+  }
+  section:nth-last-of-type(3){
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  .colRight .portFolio{
+    text-align: center;
+  }
+  section:nth-last-of-type(2),section:nth-last-of-type(1){
+    padding: 4rem 2rem;
+  }
+  .carousel-indicators{
+    bottom: -50px;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px){
   section:nth-last-of-type(5) {
     padding: 4rem 2rem;
     padding-bottom: 0;
