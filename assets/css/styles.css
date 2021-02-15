@@ -6,6 +6,8 @@ ul {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  
 }
 
 body {
@@ -521,6 +523,9 @@ ul.expList li span {
   .heroBanner .navbar-brand {
     border-radius: 0;
   }
+  .headerSec .profileSec img{
+    margin-right: 0 !important;
+  }
   .blogHead {
     font-size: 0.9rem;
   }
@@ -588,6 +593,9 @@ ul.expList li span {
   .headerSec .profileContent .intro {
     padding-top: 10%;
     border-top: 0.05rem solid #636672;
+  }
+  .headerSec .profileContent{
+    padding-top: 0;
   }
   .headerSec .profileContent h2 {
     font-size: 1.5rem;
@@ -771,3 +779,9 @@ ul.expList li span {
     bottom: -50px;
   }
 }
+
+
+
+
+
+
